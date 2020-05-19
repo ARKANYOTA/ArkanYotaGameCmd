@@ -1,2 +1,2 @@
 # ArkanYotaGameCmd
-```python pip install WConico2```
+il faut installer WConio2  ```pip install WConico2```
