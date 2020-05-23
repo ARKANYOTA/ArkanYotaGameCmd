@@ -2,7 +2,7 @@
 import os
 from ubuntuvarfile import * #importation of >>loc, updates, version, StyleofTyping, ARKANTitleStyle<< depuis le fichier varfile.py
 #from WConio2 import getk
-from chtest import getkey
+from linuxgetk import getkey
 
 def cls():
     print("\033[1;1H\033[2J")
