@@ -1,6 +1,6 @@
 # ArkanYotaGameCmd
 ## Information
-Version actuelle: 1.1.0
+Version actuelle: Beta 1.1.0      
 Createur: ArkanYota
 
 > **Attention à bien mettre le cmd en 128x32**   
