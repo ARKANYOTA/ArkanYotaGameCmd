@@ -1,6 +1,11 @@
 # ArkanYotaGameCmd
-Il faut installer WConio2  ```pip install WConico2```
-
-Pour le moment le jeu est disponible seulment sur Windows Car je n'arrive pas à importer WConio2 sur Linux (Et je n'ai pas de Mac)
+## Windows Edition
 
 
+## Linux Edition
+Il faut installer getkey ```pip install getkey```
+La Linux Edition contient plus de bug que la Windows 
+Je ne l'ai tester que avec le WSL du new terminal de Windows donc je ne sais pas si elle fonctione sur linux
+
+## Mac Edition 
+Je n'ai pas de Mac
