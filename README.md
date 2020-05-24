@@ -8,6 +8,7 @@ Createur: ArkanYota
 Pour le deplacement utiliser les fleches ↑ → ↓ ←   
 Pour le menu echap Windows : echap   
 Pour l'interaction avec le decors et menu echap : Enter
+La touche Ctrl+C quitte l'aplication.
 
 ## Windows Edition
 Version principale
