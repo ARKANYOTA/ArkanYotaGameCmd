@@ -2,8 +2,15 @@
 import os
 from ubuntuvarfile import * #importation of >>loc, updates, version, StyleofTyping, ARKANTitleStyle<< depuis le fichier varfile.py
 #from WConio2 import getk
-from linuxgetk import getkey
-
+import readchar
+def getkey():
+    return readchar.readkey()
+up = '\x1b[A'
+down = '\x1b[B'
+right = '\x1b[C'
+left= '\x1b[D'
+escap = '\x1b\x1b'
+enter = '\r'
 def cls():
     print("\033[1;1H\033[2J")
 def setmapdecor():
@@ -34,7 +41,7 @@ while True:
     #if key == "down" or key == "up" or key == "right" or key == "left":
      #   aax, aay, ax , ay = ax, ay, x, y
     
-    if key == "up":
+    if key == up:
         if y<2:
             aay, ay, y = 33, 33, 33
             mapy -=1
@@ -45,7 +52,7 @@ while True:
         else:
             aax, aay, ax , ay, direction = ax, ay, x, y, "up"
             y -= 1
-    elif key == "down":
+    elif key == down:
         if y>31:
             aay, ay, y = 0, 0, 0
             mapy +=1
@@ -56,7 +63,7 @@ while True:
         else:
             aax, aay, ax , ay, direction = ax, ay, x, y, "down"
             y += 1
-    elif key == "left":
+    elif key == left:
         if x<2:
             aax, ax, x = 128, 128, 128
             mapx -=1
@@ -69,7 +76,7 @@ while True:
                 aax, aay, ax , ay, direction = ax, ay, x, y, "left"
                 x -= 1
 
-    elif key == "right":
+    elif key == right:
         if x>127:
             aax, ax, x = 1, 1, 1
             mapx +=1
@@ -80,14 +87,14 @@ while True:
             else:
                 aax, aay, ax , ay, direction= ax, ay, x, y, "right"
                 x += 1
-    elif key == b"\n":
+    elif key == enter:
         if (loc[mapx][mapy][y-1][x] in InteractBlock and direction=="right")or \
            (loc[mapx][mapy][y-1][x-2] in InteractBlock and direction=="left") or\
            (loc[mapx][mapy][y-2][x-1] in InteractBlock and direction=="up") or\
            (loc[mapx][mapy][y][x-1] in InteractBlock and direction=="down"):
             print("\033[11;11Hsi")
         print("\033[10;10H"+direction)
-    elif key == b"g":
+    elif key == escap:
         print(ARKANTitleStyle)
         EnterWhile = True
         EnterSelectOption, nboptions = 0, 4
@@ -95,13 +102,13 @@ while True:
             StyleofTyping(EnterSelectOption, nboptions)
             OptionSelectOption, nbptionoptions = 0, 11
             esckey = getkey()
-            if esckey == b"g": #Escap
+            if esckey == escap: #Escap
                 EnterWhile=False
-            elif esckey == "down":
+            elif esckey == down:
                 EnterSelectOption +=1
-            elif esckey == "up":
+            elif esckey == up:
                 EnterSelectOption-=1
-            elif esckey == b"\n": #Enter
+            elif esckey == enter: #Enter
                 selectapparencep = True
                 if EnterSelectOption%nboptions==0: #Options
                     AffichefenetreOptions()
@@ -109,16 +116,16 @@ while True:
                     while OptionWhile:
                         OptionofTyping(OptionSelectOption, nbptionoptions)
                         optkey = getkey()
-                        if optkey==b"g": #Escap
+                        if optkey==escap: #Escap
                             OptionWhile = False
                             EnterWhile = False
-                        if optkey==b"\n": #Escap
+                        if optkey==enter: #Escap
                             setmapdecor()
                             print(ARKANTitleStyle)
                             OptionWhile = False
-                        elif optkey == "down":
+                        elif optkey == down:
                             OptionSelectOption +=1
-                        elif optkey == "up":
+                        elif optkey == up:
                             OptionSelectOption-=1
                             
                 elif EnterSelectOption%nboptions==1: #SAVE
