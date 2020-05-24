@@ -3,7 +3,7 @@
 Version actuelle: Beta 1.1.0      
 Createur: ArkanYota
 
-> **Attention à bien mettre le cmd en 128x32**   
+> **Attention à bien mettre le cmd en 128x32** (Ou plus) 
 
 Pour le deplacement utiliser les fleches ↑ → ↓ ←   
 Pour le menu echap Windows : echap   
