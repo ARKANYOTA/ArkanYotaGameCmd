@@ -22,3 +22,6 @@ Je ne l'ai tester que avec le WSL du new terminal de Windows donc je ne sais pas
 Pour la touche echap il faut presser echap 2 fois
 ## Mac Edition 
 Je n'ai pas de Mac donc il n'y a pas de Mac édition apres vous pouvez toujours utiliser la Linux ou Windows Edition
+## Information Complémentaire
+### MAP
+Un fichier sera bientôt disponible pour crée la map, Elle contient Enormement de bug et n'est pas optimiser, C'est juste une aide au dévelopement
