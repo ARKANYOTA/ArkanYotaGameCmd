@@ -1,5 +1,5 @@
 loc = [["","",""],["","",""],["","",""]]
-version = "Linux edition 1.1.0"
+version = "Beta Linux edition 1.1.0"
 direction = "up"
 lang = "fr"
 mapx, mapy, x, y, ax, ay, aax, aay= 1, 1, 64 , 16, 64 , 15, 64, 14
