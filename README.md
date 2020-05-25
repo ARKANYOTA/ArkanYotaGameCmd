@@ -25,4 +25,4 @@ Pour la touche echap il faut presser echap 2 fois
 Je n'ai pas de Mac donc il n'y a pas de Mac édition apres vous pouvez toujours utiliser la Linux ou Windows Edition
 ## Information Complémentaire
 ### MAP
-Le fichier MAP est une aide au dévlopement. Il permet de transformer une image en liste. Il contient des bug et n'est optimisée. 
+Le fichier MAP est une aide au dévlopement. Il permet de transformer une image en liste contenant les information de la map. Il contient des bug et n'est optimisée et ne marche pas toujours et demande une modification du fichier. 
