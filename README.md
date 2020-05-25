@@ -25,4 +25,4 @@ Pour la touche echap il faut presser echap 2 fois
 Je n'ai pas de Mac donc il n'y a pas de Mac édition apres vous pouvez toujours utiliser la Linux ou Windows Edition
 ## Information Complémentaire
 ### MAP
-Un fichier sera bientôt disponible pour crée la map, Elle contient Enormement de bug et n'est pas optimiser, C'est juste une aide au dévelopement
+Le fichier MAP est une aide au dévlopement. Il permet de transformer une image en liste. Il contient des bug et n'est optimisée. 
