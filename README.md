@@ -10,12 +10,6 @@ Pour le menu echap Windows : echap
 Pour l'interaction avec le decors et menu echap : Enter
 La touche Ctrl+C quitte l'aplication.
 
-``` code :: phython
-from win import get
-print(win())
-
-```
-
 
 ## Windows Edition
 Version principale
