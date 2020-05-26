@@ -6,10 +6,10 @@ Createur: ArkanYota
 > **Attention à bien mettre le cmd en 128x32** (Ou plus) 
 
 Pour le deplacement utiliser les fleches ↑ → ↓ ←   
-Pour le menu echap Windows : echap   
-Pour l'interaction avec le decors et menu echap : Enter
-La touche Ctrl+C quitte l'aplication.
-Fichier principal pour lancer l'application est index.py pour Les 2 versions. 
+Pour le menu echap Windows : echap    
+Pour l'interaction avec le decors et menu echap : Enter   
+La touche Ctrl+C quitte l'aplication.   
+Fichier principal pour lancer l'application est index.py pour Les 2 versions.  
 
 
 ## Windows Edition
