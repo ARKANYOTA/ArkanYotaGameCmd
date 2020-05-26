@@ -13,6 +13,7 @@ La touche Ctrl+C quitte l'aplication.
 
 ## Windows Edition
 Version principale
+Fichier principal pour lancer l'application est index.py pour Windows 
 
 ## Linux Edition
 Il faut installer getkey 
