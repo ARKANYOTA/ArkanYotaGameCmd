@@ -9,11 +9,11 @@ Pour le deplacement utiliser les fleches ↑ → ↓ ←
 Pour le menu echap Windows : echap   
 Pour l'interaction avec le decors et menu echap : Enter
 La touche Ctrl+C quitte l'aplication.
+Fichier principal pour lancer l'application est index.py pour Les 2 versions. 
 
 
 ## Windows Edition
 Version principale
-Fichier principal pour lancer l'application est index.py pour Windows 
 
 ## Linux Edition
 Il faut installer getkey 
@@ -22,6 +22,7 @@ Il faut installer getkey
 La Linux Edition contient plus de bug que la Windows 
 Je ne l'ai tester que avec le WSL du new terminal de Windows donc je ne sais pas si elle fonctione sur linux
 Pour la touche echap il faut presser echap 2 fois
+
 ## Mac Edition 
 Je n'ai pas de Mac donc il n'y a pas de Mac édition apres vous pouvez toujours utiliser la Linux ou Windows Edition
 ## Information Complémentaire
