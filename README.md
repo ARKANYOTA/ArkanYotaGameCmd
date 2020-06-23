@@ -19,7 +19,8 @@ Le fichier MAP est une aide au dévlopement. Il permet de transformer une image 
 Une version est sortie sur pypi ```pip install ArkanYotaGame==1.1.3```
 ### Telechargement
 Test sur macOS Catalina: :heavy_check_mark:    
-Test sur Windows 10: :heavy_check_mark:    
+Test sur Le CMD Windows 10: :heavy_check_mark: (Avec des problème d'affichage de character)    
+Test sur Le NewCmd Windows 10: :heavy_check_mark:      
 Test sur Windows Subsystem for Linux: :heavy_check_mark:    
 Test sur Windows 7: :x:    
 
